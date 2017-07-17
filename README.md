@@ -2,7 +2,7 @@
 
 RxJava basic examples (some may be not trivial tho) with explanation.
 Names of objects don't correspond with real objects (like class name Car, Human, etc).
-Objects crated are designed to only inform about what's going on, not to show real life examples.
+Objects created are designed to only inform about what's going on, not to show real life examples.
 Some examples are designed to be used as template to deal with async solutions.
 
 ## What you need to know first
