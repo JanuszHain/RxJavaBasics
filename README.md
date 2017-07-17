@@ -37,30 +37,30 @@ Retrolambda seems scarry when combained with RxJava, but it is simple mechanism.
 
 Example in Java:
 
-'
+'''
 interface OnDoSomethingListener{
   void doSomething(String arg1, String arg2);
 }
-'
+'''
 
 Now we can create listener like:
 
-'
+'''
 OnDoSomethingListener listener = new OnDoSomethingListener(){
     @Override
     public void doSomething(String arg1, String arg2) {
         
     }
 };
-'
+'''
 
 Or using retrolambda easier way:
 
-'
+'''
 OnDoSomethingListener listener = (arg1, arg2) -> { //this is doSomething(String arg1, String arg2)
 
 }
-'
+'''
 
 Note that this interface got only one method (so we know which method hides under lambda).
 In case of more methods you can't use retrolambda!
